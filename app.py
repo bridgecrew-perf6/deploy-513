@@ -10,7 +10,7 @@ model = load_model('my_model.h5')
 print("+"*50, "Model is loaded")
 
 labels = ['blackhead', 'eksim', 'flek hitam', 'herpes', 'jerawat', 'milia', 'panu', 'rosacea', 'tinea fasialis']
-file_json = open("static\solusi.json")
+file_json = open("solusi.json")
 datasolusi = json.loads(file_json.read())
 
 @app.route('/')
