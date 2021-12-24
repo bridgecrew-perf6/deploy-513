@@ -84,7 +84,7 @@ header.sticky
 }
 header .logo
 {
-	color: #fff;
+	color: black;
 	font-weight: 700;
 	font-size: 2em;
 	text-decoration: none;
@@ -110,7 +110,7 @@ header .navigation li
 header .navigation li a
 {
 	text-decoration: none;
-	color: #fff;
+	color: black;
 	font-weight: 300;
 }
 header.sticky .navigation li a
